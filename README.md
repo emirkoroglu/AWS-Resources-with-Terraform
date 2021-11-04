@@ -1,3 +1,4 @@
 # interactive-learning-tasks
 
-Add IAM user to a IAM group.
+iam folder = Add IAM user to a IAM group.
+ec2 folder
