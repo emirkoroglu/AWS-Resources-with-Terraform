@@ -1,7 +1,7 @@
 resource "aws_security_group" "rds" {
   name        = "rds"
   description = "Allow private inbound traffic"
-  id = "rds1"
+  id          = "rds1"
 
   ingress {
     description = "TLS from VPC"
