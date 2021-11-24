@@ -1,3 +1,1 @@
-# interactive-learning-tasks
-
-Create a key pair.
+Tasks for Terraform on AWS
