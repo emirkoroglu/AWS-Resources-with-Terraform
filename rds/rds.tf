@@ -10,6 +10,5 @@ resource "aws_db_instance" "rds" {
   auto_minor_version_upgrade = true
   security_group_id          = "rds1"
   db_subnet_group_name       = "rdsubnet"
-  allocated_storage          = 50
-  max_allocated_storage      = 500
+  vpc_security_group_ids     = ["rds"]
 }
